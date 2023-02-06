@@ -16,6 +16,10 @@ const routes: Routes = [
   {
     path: 'signup',
     component: SignupComponent,
+  },
+  {
+    path: 'profile',
+    component: ProfileComponent
   }
 ];
 

@@ -8,11 +8,22 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
 
+import { LoadingComponent } from './shared/loading/loading.component';
+import { NotfoundComponent } from './shared/notfound/notfound.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { NavegationComponent } from './shared/navegation/navegation.component';
+import { FooterComponent } from './shared/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SignupComponent,
+    LoadingComponent,
+    NotfoundComponent,
+    ProfileComponent,
+    NavegationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,7 @@ import { Order } from '../models/order.model';
 })
 export class OrderService {
 
-  private apiUri: string = "http://localhost:3000/api"
+  private apiUri: string = "https://delifoodbackend-production.up.railway.app/api"
 
   constructor(
     private http: HttpClient,

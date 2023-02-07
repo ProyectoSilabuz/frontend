@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class AuthService {
 
-  private apiUri: string = "http://localhost:3000/api"
+  private apiUri: string = "https://delifoodbackend-production.up.railway.app/api"
 
   constructor(
     private http: HttpClient,
